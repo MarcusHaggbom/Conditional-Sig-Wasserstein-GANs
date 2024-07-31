@@ -1,8 +1,8 @@
 import torch
 
-from lib.algos.base import BaseAlgo
-from lib.algos.gans import toggle_grad
-from lib.utils import sample_indices
+from .base import BaseAlgo
+from .gans import toggle_grad
+from ..utils import sample_indices
 
 
 class GMMN(BaseAlgo):

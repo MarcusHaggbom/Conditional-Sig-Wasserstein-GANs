@@ -1,2 +1,2 @@
-from lib import augmentations
-from lib.algos import *
+from . import augmentations
+from .algos import *

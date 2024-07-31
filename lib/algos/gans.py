@@ -3,9 +3,9 @@ import functools
 import torch
 from torch import autograd
 
-from lib.algos.base import BaseAlgo
-from lib.arfnn import ResFNN
-from lib.utils import sample_indices
+from .base import BaseAlgo
+from ..arfnn import ResFNN
+from ..utils import sample_indices
 
 
 class CGANTrainer(object):
